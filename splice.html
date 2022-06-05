@@ -1,0 +1,32 @@
+<!doctype html>
+<head>  <title>  </title> </head>
+<body>   
+<script>
+
+var animals=["fish","cat","dog","elephant","pig"];
+document.write(animals.splice(2,3,"lion","tiger","bear"));
+
+document.write("<br/>");
+document.write(animals);
+
+var games=["cricket","football","voleyball","throwball","hockey"];
+document.write("<br/>elements to be deleted <br/>");
+document.write(games.splice(2,0,"rugby","icehockey"));
+document.write("our new array is <br/>");
+document.write(games);
+document.write("<br/>");
+document.write("deleting in an array while without adding any elements")
+document.write("<br/>");
+
+document.write(games.splice(0,2) );
+document.write("<br/>");
+
+document.write( games);
+document.write("<br/>");
+var newGames=games.slice(2,4);
+document.write( games);
+document.write("<br/>");
+document.write( newGames);
+
+</script>
+ </body>
